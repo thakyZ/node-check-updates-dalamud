@@ -1,0 +1,37 @@
+{
+    "name": "node-check-updates-dalamud",
+    "version": "0.1.0",
+    "author": "Neko Boi Nick <950594+thakyZ@users.noreply.github.com> (https://github.com/thakyz)",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "description": "TODO: write a description",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thakyZ/node-check-updates-dalamud"
+    },
+    "scripts": {
+        "build": "tsc",
+        "test": "jest --forceExit --coverage --verbose",
+        "lint": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint -c eslint.config.mjs -p tsconfig.json",
+        "watch-test": "npm run test -- --watchAll",
+        "watch": "tsc -w"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.8.0",
+        "@types/eslint__js": "^8.42.3",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.14.12",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-markdown": "^5.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "globals": "^15.8.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.3",
+        "ts-jest": "^29.2.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4",
+        "typescript-eslint": "^7.17.0"
+    }
+}

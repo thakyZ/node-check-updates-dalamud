@@ -1,0 +1,21 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [
+        "npm",
+        "node",
+        "typescript",
+        "companies",
+        "en_US",
+        "softwareTerms",
+        "misc",
+        "fonts",
+        "filetypes"
+    ],
+    "words": [],
+    "ignoreWords": [
+        "camelcase"
+    ],
+    "import": []
+}

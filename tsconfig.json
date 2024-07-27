@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "module": "ES2022",
+        "moduleResolution": "Node",
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "target": "es6",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        },
+        "forceConsistentCasingInFileNames": true,
+        "strict": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
